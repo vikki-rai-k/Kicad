@@ -1,0 +1,44 @@
+Title
+	title : Bluarmor- Halo2/3 Headset IR Adapter
+	date : 2025-04-18
+	rev : Rev 1.0
+	company : AptEner Mechatronics PVT LTD
+
+
+Board Thickness = 0.8 mm
+
+
+Copper Layer  = 2 
+
+
+Copper Layers 
+	F.Cu(type : 0.035 mm
+	B.Cu(type : 0.035 mm
+
+
+DiElectric Layers 
+	"core" : 0.7 mm : "FR4" : 4.5 : 0.02
+
+
+Impedance Control : False
+
+SilkScreen Layers 
+	Top Silk Screen : white
+	Bottom Silk Screen : white
+
+
+SolderMask Layers 
+	Top Solder Mask : green : 0.01
+	Bottom Solder Mask : green : 0.01
+
+
+DRC Rules 
+Track Rules 
+	Min Track Width : 0.20mm
+	Min Track Spacing : 0.10mm
+	Min Cu to Edge : 0.05mm
+Via Rules 
+	Min Via hole  : 0.30mm
+	Min Via Dia : 0.45mm
+	Min Annular width : 0.08mm
+	Min hole to hole spacing : 0.25mm

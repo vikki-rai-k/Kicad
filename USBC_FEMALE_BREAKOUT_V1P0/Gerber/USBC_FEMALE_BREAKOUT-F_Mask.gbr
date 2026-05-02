@@ -1,0 +1,157 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2026-04-13T10:41:49+05:30*%
+%TF.ProjectId,USBC_FEMALE_BREAKOUT,55534243-5f46-4454-9d41-4c455f425245,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2026-04-13 10:41:49*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline4P*
+0 Free polygon, 4 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 4*
+0 $1 to $8 corner X, Y*
+0 $9 Rotation angle, in degrees counterclockwise*
+0 create outline with 4 corners*
+4,1,4,$1,$2,$3,$4,$5,$6,$7,$8,$1,$2,$9*%
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10C,3.000000*%
+%ADD11R,0.300000X1.691000*%
+%ADD12R,0.305000X1.691000*%
+%ADD13R,0.297000X1.691000*%
+%ADD14R,0.800000X1.900000*%
+%ADD15Outline5P,-0.827500X1.047500X0.827500X1.047500X0.827500X-1.047500X-0.496500X-1.047500X-0.827500X-0.716500X180.000000*%
+%ADD16Outline4P,-0.792500X-1.042500X0.792500X-1.042500X0.792500X1.042500X-0.792500X1.042500X180.000000*%
+%ADD17R,1.670000X2.095000*%
+%ADD18R,1.645000X2.085000*%
+%ADD19R,1.655000X2.105000*%
+%ADD20R,1.625000X2.075000*%
+%ADD21R,1.675000X2.105000*%
+%ADD22R,1.615000X2.085000*%
+%ADD23R,1.665000X2.075000*%
+%ADD24R,1.665000X2.095000*%
+%ADD25R,1.695000X2.085000*%
+%ADD26R,1.675000X2.095000*%
+%ADD27R,1.655000X2.085000*%
+%ADD28R,1.685000X2.095000*%
+%ADD29R,1.635000X2.085000*%
+%ADD30R,1.685000X2.085000*%
+%ADD31R,1.685000X2.065000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H1*%
+X218100000Y-67670000D03*
+%TD*%
+%TO.C,H2*%
+X191760000Y-67670000D03*
+%TD*%
+D11*
+%TO.C,J1*%
+X202210000Y-64740500D03*
+X202710000Y-64740500D03*
+D12*
+X203207500Y-64740500D03*
+D13*
+X203711500Y-64740500D03*
+D11*
+X204210000Y-64740500D03*
+X204710000Y-64740500D03*
+X205210000Y-64740500D03*
+X205710000Y-64740500D03*
+X206210000Y-64740500D03*
+X206710000Y-64740500D03*
+X207210000Y-64740500D03*
+X207710000Y-64740500D03*
+D14*
+X200718418Y-65425779D03*
+X209195526Y-65425779D03*
+%TD*%
+D15*
+%TO.C,J2*%
+X218927500Y-82122500D03*
+D16*
+X218962500Y-79162500D03*
+D17*
+X216380000Y-82122500D03*
+D18*
+X216372500Y-79162500D03*
+D19*
+X213847500Y-82127500D03*
+D20*
+X213862500Y-79167500D03*
+D21*
+X211297500Y-82127500D03*
+D22*
+X211327500Y-79162500D03*
+D17*
+X208760000Y-82122500D03*
+D23*
+X208762500Y-79167500D03*
+D24*
+X206222500Y-82122500D03*
+D25*
+X206207500Y-79162500D03*
+D26*
+X203677500Y-82122500D03*
+D27*
+X203687500Y-79162500D03*
+D26*
+X201137500Y-82122500D03*
+D18*
+X201152500Y-79162500D03*
+D28*
+X198592500Y-82122500D03*
+D29*
+X198617500Y-79162500D03*
+D24*
+X196062500Y-82122500D03*
+D28*
+X196052500Y-79157500D03*
+D26*
+X193517500Y-82122500D03*
+D30*
+X193512500Y-79162500D03*
+D17*
+X190980000Y-82122500D03*
+D31*
+X190972500Y-79172500D03*
+%TD*%
+M02*

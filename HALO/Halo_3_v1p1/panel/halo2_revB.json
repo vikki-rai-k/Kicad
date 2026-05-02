@@ -1,0 +1,47 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "5",
+        "vbonecut": "False",
+        "hbonecut": "False",
+        "baketext": "False"
+    },
+    "source": {
+        "tolerance": "15mm"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame",
+        "cuts": "v"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "9mm",
+        "voffset": "2.4mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "14mm",
+        "voffset": "2.4mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "AptEner Halo 2 T0"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "2.4mm",
+        "layer": "B.SilkS",
+        "text": "AptEner Halo 2 T0"
+    },
+    "page": {
+        "type": "A4"
+    }
+}

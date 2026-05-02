@@ -1,0 +1,38 @@
+{
+    "layout": {
+        "rows": "15",
+        "cols": "10"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "cutcurves": "True",
+        "layer": "40"
+    },
+    "framing": {
+        "type": "frame",
+        "hspace": "0mm",
+        "vspace": "0mm",
+        "cuts": "v"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2mm",
+        "voffset": "3mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "3mm",
+        "coppersize": "2mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2mm",
+        "layer": "37",
+        "text": "HALO USB PCB"
+    }
+}

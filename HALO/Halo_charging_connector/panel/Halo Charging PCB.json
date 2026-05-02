@@ -1,0 +1,39 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "4mm",
+        "hbackbone": "3mm",
+        "vbackbone": "3mm",
+        "hbonefirst": "1",
+        "vbonefirst": "1",
+        "rows": "5",
+        "cols": "4"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "spacing": "1mm",
+        "offset": "-0.2mm"
+    },
+    "framing": {
+        "type": "frame",
+        "vspace": "5mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "11.800mm",
+        "voffset": "2.400mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "17.800mm",
+        "voffset": "2.450mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "Halo 2 USB-C v1.1"
+    }
+}

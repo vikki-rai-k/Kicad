@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\APTENER\PCB\Halo_2\Halo_3_USB_v1p0\Halo_3_USB_v1p0\Halo_3_USB_v1p0.kicad_sch</source>
+    <date>2025-04-19T12:02:38+0530</date>
+    <tool>Eeschema 8.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bluarmor-Halo2/3 Headset IR Adapter</title>
+        <company>AptEner Mechatronics PVT LTD</company>
+        <rev>Rev 1.0</rev>
+        <date>2025-04-18</date>
+        <source>Halo_3_USB_v1p0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb29af36-dadb-436b-88ae-26f8e710cba8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5c10d48-6813-48cd-963a-10b38045805e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72f8212b-32c5-44f2-a0e1-4aff070ab61e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Shouhan_TypeC_24_vertical</value>
+      <footprint>locallib:Shouhan_TypeC_24_vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3cn1x30dshr-ax1.pdf</datasheet>
+      <description>USB Connectors USB3.2 GEN1, Type C Plug, Vertical, Height 11.1mm, Dual Row SMT</description>
+      <fields>
+        <field name="Height">11.3</field>
+        <field name="Mouser Part Number">523-GSB3CN1130DSHR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-Canada/GSB3CN1130DSHR?qs=3Rah4i%252BhyCH8KAtCMmmkqg%3D%3D</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">GSB3CN1130DSHR</field>
+        <field name="Footprint">locallib:Shouhan_TypeC_24_vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3cn1x30dshr-ax1.pdf</field>
+        <field name="Description">USB Connectors USB3.2 GEN1, Type C Plug, Vertical, Height 11.1mm, Dual Row SMT</field>
+      </fields>
+      <libsource lib="locallib" part="Shouhan_TypeC_24_vertical" description="USB Connectors USB3.2 GEN1, Type C Plug, Vertical, Height 11.1mm, Dual Row SMT"/>
+      <property name="Height" value="11.3"/>
+      <property name="Mouser Part Number" value="523-GSB3CN1130DSHR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Amphenol-Canada/GSB3CN1130DSHR?qs=3Rah4i%252BhyCH8KAtCMmmkqg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Amphenol"/>
+      <property name="Manufacturer_Part_Number" value="GSB3CN1130DSHR"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c01556e6-4553-4dcd-8c7e-510cc9ee64db</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30f8b028-4b59-4280-9917-5c93a3420604</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2a82140-5016-48ed-b059-4d9ab8113196</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e5320f-2a26-4c0b-9b87-b72458be7bc9</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20cbf633-3ba4-42af-b2b0-823e102d788e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05eac7b7-e902-4d8d-a54d-9a6f8010ee60</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x01_Pin</value>
+      <footprint>locallib:Test_Point_1.5mm_SMD_Tiny</footprint>
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <fields>
+        <field name="Footprint">locallib:Test_Point_1.5mm_SMD_Tiny</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Halo_3_USB_v1p0.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>690cac98-7edb-4cfd-912e-d61c9a7f7073</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x01, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="locallib" part="Shouhan_TypeC_24_vertical">
+      <description>USB Connectors USB3.2 GEN1, Type C Plug, Vertical, Height 11.1mm, Dual Row SMT</description>
+      <docs>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3cn1x30dshr-ax1.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Shouhan_TypeC_24_vertical</field>
+        <field name="Footprint">GSB3CN1130DSHR</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3cn1x30dshr-ax1.pdf</field>
+        <field name="Description">USB Connectors USB3.2 GEN1, Type C Plug, Vertical, Height 11.1mm, Dual Row SMT</field>
+        <field name="Height">11.3</field>
+        <field name="Mouser Part Number">523-GSB3CN1130DSHR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-Canada/GSB3CN1130DSHR?qs=3Rah4i%252BhyCH8KAtCMmmkqg%3D%3D</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">GSB3CN1130DSHR</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND_1" type="passive"/>
+        <pin num="A2" name="SSTXP1" type="passive"/>
+        <pin num="A3" name="SSTXN1" type="passive"/>
+        <pin num="A4" name="VBUS_1" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP1" type="passive"/>
+        <pin num="A7" name="DN1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS_2" type="passive"/>
+        <pin num="A10" name="SSRXN2" type="passive"/>
+        <pin num="A11" name="SSRXP2" type="passive"/>
+        <pin num="A12" name="GND_2" type="passive"/>
+        <pin num="B1" name="GND_3" type="passive"/>
+        <pin num="B2" name="SSTXP2" type="passive"/>
+        <pin num="B3" name="SSTXN2" type="passive"/>
+        <pin num="B4" name="VBUS_3" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP2" type="passive"/>
+        <pin num="B7" name="DN2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS_4" type="passive"/>
+        <pin num="B10" name="SSRXN1" type="passive"/>
+        <pin num="B11" name="SSRXP1" type="passive"/>
+        <pin num="B12" name="GND_4" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="locallib">
+      <uri>D:\APTENER\PCB\LIB/aptenerkicad6lib/aptenersymbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="A1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="A12" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="B1" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J4" pin="B12" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J4" pin="MH1" pinfunction="MH1" pintype="passive"/>
+      <node ref="J4" pin="MH2" pinfunction="MH2" pintype="passive"/>
+    </net>
+    <net code="2" name="/HPLOUTN">
+      <node ref="J4" pin="A10" pinfunction="SSRXN2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/HPLOUTP">
+      <node ref="J4" pin="A11" pinfunction="SSRXP2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/HPROUTN">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="B10" pinfunction="SSRXN1" pintype="passive"/>
+    </net>
+    <net code="5" name="/HPROUTP">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="B11" pinfunction="SSRXP1" pintype="passive"/>
+    </net>
+    <net code="6" name="/MIC">
+      <node ref="J4" pin="B3" pinfunction="SSTXN2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/RX_R">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="A2" pinfunction="SSTXP1" pintype="passive"/>
+    </net>
+    <net code="8" name="/TX_L">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="B7" pinfunction="DN2" pintype="passive"/>
+    </net>
+    <net code="9" name="/V3P0_IR">
+      <node ref="J4" pin="A8" pinfunction="SBU1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J4-CC1-PadA5)">
+      <node ref="J4" pin="A5" pinfunction="CC1" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J4-CC2-PadB5)">
+      <node ref="J4" pin="B5" pinfunction="CC2" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J4-DN1-PadA7)">
+      <node ref="J4" pin="A7" pinfunction="DN1" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J4-DP1-PadA6)">
+      <node ref="J4" pin="A6" pinfunction="DP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J4-DP2-PadB6)">
+      <node ref="J4" pin="B6" pinfunction="DP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J4-SBU2-PadB8)">
+      <node ref="J4" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J4-SSTXN1-PadA3)">
+      <node ref="J4" pin="A3" pinfunction="SSTXN1" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J4-SSTXP2-PadB2)">
+      <node ref="J4" pin="B2" pinfunction="SSTXP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J4-VBUS_1-PadA4)">
+      <node ref="J4" pin="A4" pinfunction="VBUS_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J4-VBUS_2-PadA9)">
+      <node ref="J4" pin="A9" pinfunction="VBUS_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J4-VBUS_3-PadB4)">
+      <node ref="J4" pin="B4" pinfunction="VBUS_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J4-VBUS_4-PadB9)">
+      <node ref="J4" pin="B9" pinfunction="VBUS_4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

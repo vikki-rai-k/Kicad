@@ -1,0 +1,17 @@
+### Footprint positions - created on 2025-10-30T14:17:06+0530 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                              Package                                  PosX       PosY       Rot  Side
+D24       ESD_ST_ESDZV5H_1BU2              ESDZV5H-1BU2                         234.9337   -60.2519  180.0000  top
+D25       ESD_ST_ESDZV5H_1BU2              ESDZV5H-1BU2                         233.1337   -60.2519  180.0000  top
+D26       ESD_ST_ESDZV5H_1BU2              ESDZV5H-1BU2                         234.0337   -60.2649    0.0000  top
+D28       ESD_ST_ESDZV5H_1BU2              ESDZV5H-1BU2                         232.2337   -60.2519  180.0000  top
+J1        TYPE-C_16PFS_2JCB1.6-H7.45_IPX8  USB-SMD_TYPE-C-16PFS-2J-H7.45-IPX8   233.9250   -56.4610  180.0000  top
+R28       60.4K                            R_0402                               226.3786   -59.6834   90.0000  top
+R29       10K                              R_0402                               239.2500   -58.6949    0.0000  top
+R30       5.1K                             R_0402                               226.3387   -57.6334   90.0000  top
+R57       5.1K                             R_0402                               227.3837   -57.6334   90.0000  top
+U1        ~                                Castellated_holes                    229.0500   -60.9500   90.0000  top
+U2        ~                                Castellated_holes                    239.8500   -60.9500   90.0000  top
+## End

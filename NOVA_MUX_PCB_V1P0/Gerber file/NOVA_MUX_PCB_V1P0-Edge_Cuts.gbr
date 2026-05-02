@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2026-04-01T11:45:24+05:30*%
+%TF.ProjectId,NOVA_MUX_PCB_V1P0,4e4f5641-5f4d-4555-985f-5043425f5631,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2026-04-01 11:45:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X43830000Y-29610000D02*
+X166760000Y-29610000D01*
+X166760000Y-124890000D01*
+X43830000Y-124890000D01*
+X43830000Y-29610000D01*
+M02*

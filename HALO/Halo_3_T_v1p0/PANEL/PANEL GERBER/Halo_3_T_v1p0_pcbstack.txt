@@ -1,0 +1,44 @@
+Title
+	title : Halo2/3 Headset Connection_PCB
+	date : 2025-04-19
+	rev : REV 1.0
+	company : APTENER MECHATRONICS
+
+
+Board Thickness = 0.8 mm
+
+
+Copper Layer  = 2 
+
+
+Copper Layers 
+	F.Cu(type : 0.035 mm
+	B.Cu(type : 0.035 mm
+
+
+DiElectric Layers 
+	"core" : 0.7 mm : "FR4" : 4.5 : 0.02
+
+
+Impedance Control : False
+
+SilkScreen Layers 
+	Top Silk Screen : White
+	Bottom Silk Screen : White
+
+
+SolderMask Layers 
+	Top Solder Mask : Green : 0.01
+	Bottom Solder Mask : Green : 0.01
+
+
+DRC Rules 
+Track Rules 
+	Min Track Width : 0.00mm
+	Min Track Spacing : 0.00mm
+	Min Cu to Edge : 0.20mm
+Via Rules 
+	Min Via hole  : 0.30mm
+	Min Via Dia : 0.50mm
+	Min Annular width : 0.10mm
+	Min hole to hole spacing : 0.25mm

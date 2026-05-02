@@ -1,0 +1,115 @@
+(footprint "TestPoint_Square_0.5_SMD_Tiny"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mesurement Point, Square, SMD Pad,  1.5mm x 1.5mm,")
+	(tags "Mesurement Point Square SMD Pad 1.5x1.5mm")
+	(property "Reference" "W10"
+		(at 0.4102 -0.8936 0)
+		(layer "F.SilkS")
+		(uuid "b756ca32-095d-4a43-8da4-fb124854173b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "T1P"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70a1395a-eb87-4866-ba7d-86edbc2170e1")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3ca74ac-ea69-4706-b329-c9de04394c3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c6086a0-f8a4-47cc-afca-f57893e9b0d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a94cae8-0242-4b15-9222-82ba16009757")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.25 -0.25)
+		(end 0.25 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c048f577-7945-4f39-9d5c-0a6c09d87de3")
+	)
+	(fp_line
+		(start -0.25 0.25)
+		(end -0.25 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "279ec1f1-cbfd-4d88-a5d2-cd2238c0f675")
+	)
+	(fp_line
+		(start 0.25 -0.25)
+		(end 0.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b97cb40-39a4-431e-aabd-44f21fa9659b")
+	)
+	(fp_line
+		(start 0.25 0.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d88179ba-2f63-4c18-a059-24e030f0dfb0")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.5 0.5)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3d521d98-2fb2-4b4a-8d2b-368465cd504f")
+	)
+)

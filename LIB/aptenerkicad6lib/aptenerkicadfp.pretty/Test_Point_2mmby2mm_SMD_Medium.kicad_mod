@@ -1,0 +1,114 @@
+(footprint "Test_Point_2mmby2mm_SMD_Medium"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "W19"
+		(at 0.1 1.22 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b923a61-216e-4446-b0d4-92c3d377ea13")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "T1P"
+		(at 0.55 -1.72 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1c45b22-566e-4ca6-959c-3ea9bf5b5b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec17c531-15fa-4976-8bbf-76c0601a9df0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf4ef5b4-7b8d-4554-bbe2-fb89e7283350")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cde35f1-891d-4d38-8393-157206a82a29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1.02)
+		(end 1 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc6c2e12-d09c-4a54-9e51-dd84aa1cdfad")
+	)
+	(fp_line
+		(start -1 0.99)
+		(end -1 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc4236e1-9fce-4219-9d03-7e7be556d7f7")
+	)
+	(fp_line
+		(start 1 -1.02)
+		(end 1 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e04fe5af-e163-49f5-8aec-f513ed401c28")
+	)
+	(fp_line
+		(start 1 0.99)
+		(end -1 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64c275a3-48fb-4fbf-8e5c-50e6129c098e")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "080299f2-a385-4db0-8454-590d6c6bb1af")
+	)
+)

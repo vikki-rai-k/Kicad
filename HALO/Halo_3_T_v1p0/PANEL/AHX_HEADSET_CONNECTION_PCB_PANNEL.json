@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "hspace": "1mm",
+        "vspace": "1mm",
+        "rows": "8",
+        "cols": "10",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "vwidth": "1mm",
+        "hwidth": "1mm"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "3mm",
+        "voffset": "3mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "3mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "layer": "0",
+        "text": "AHX_HEADSET_CONNECTION_PCB"
+    },
+    "copperfill": {
+        "type": "solid"
+    }
+}

@@ -1,0 +1,115 @@
+(footprint "AHX30_HeadSet_T_Junction_Pad_1.5 x 1.5 dia 0.6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "W19"
+		(at 0.1 1.22 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b923a61-216e-4446-b0d4-92c3d377ea13")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "T1P"
+		(at 0.55 -1.72 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1c45b22-566e-4ca6-959c-3ea9bf5b5b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "AHX30_HeadSet_T_Junction_Pad_1.5 x 1.5 dia 0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee904acf-7de4-4601-98cd-30f3bfedc3b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a30f431d-d558-4ad9-afe4-ddeed87994e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "230b7baa-8ea0-4c48-981f-6f6f230446cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1.02)
+		(end 1 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc6c2e12-d09c-4a54-9e51-dd84aa1cdfad")
+	)
+	(fp_line
+		(start -1 0.99)
+		(end -1 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc4236e1-9fce-4219-9d03-7e7be556d7f7")
+	)
+	(fp_line
+		(start 1 -1.02)
+		(end 1 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e04fe5af-e163-49f5-8aec-f513ed401c28")
+	)
+	(fp_line
+		(start 1 0.99)
+		(end -1 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64c275a3-48fb-4fbf-8e5c-50e6129c098e")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "080299f2-a385-4db0-8454-590d6c6bb1af")
+	)
+)

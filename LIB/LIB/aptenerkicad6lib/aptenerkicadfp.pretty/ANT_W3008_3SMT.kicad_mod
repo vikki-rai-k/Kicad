@@ -1,0 +1,209 @@
+(footprint "ANT_W3008_3SMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RF ANT 2.4GHZ CHIP SOLDER SMD")
+	(tags "Chip ANT")
+	(property "Reference" "U**"
+		(at -0.0508 3.04 0)
+		(layer "F.SilkS")
+		(uuid "547c31f5-c91f-4ed5-b5c5-5e781a746061")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT_W3008_3SMT"
+		(at 0 1.9272 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02624851-b271-444f-b985-bd360bb9ccfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ef2222-9b32-49d5-8ff6-b39a3ec038ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RF ANT 2.4GHZ CHIP SOLDER SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2ea1295-2499-492d-86b9-666a7962291d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mpn" "W3008G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e54fb7b-289d-46e7-b739-fc3c4d27e075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer" "Pulse Electronics"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c1fa175-a569-4bdb-9af1-fb2264aa406d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9906 -0.9652)
+		(end 0.889 -0.9652)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b8be280-5e5f-4358-85d1-2f8ac36f4cbb")
+	)
+	(fp_line
+		(start -0.9906 0.9652)
+		(end 0.9906 0.9652)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40cda357-e8d7-49be-a0c9-701c427b6ef2")
+	)
+	(fp_rect
+		(start -2.07 -1.11)
+		(end 2.07 1.13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1b8b66be-7201-4ad3-9e09-066a50f88d95")
+	)
+	(pad "1" smd rect
+		(at -1.6002 0.4826 90)
+		(size 0.6604 0.7874)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "64ea0039-c078-474b-ba80-f96dc7685bbb")
+	)
+	(pad "2" smd rect
+		(at -1.6002 -0.4826 90)
+		(size 0.6604 0.7874)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "abdfcdcc-319f-4444-a93e-5078b5f74c8a")
+	)
+	(pad "3" smd rect
+		(at 1.6002 0 90)
+		(size 1.6002 0.7874)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "cf7d50ba-29f3-4abc-a6a7-688921f74ed3")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
+		(uuid "1a6107c8-5ae7-491e-9870-c2e63ddbbce6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.47 5.17) (xy 5.53 5.18) (xy 5.56 0.8) (xy 1.9939 0.8001) (xy 2 -1.14) (xy -2 -1.13) (xy -1.9939 0.8128)
+				(xy -5.49 0.82)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "48b510d8-3582-45ab-8538-65574791023b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.472002 5.17) (xy 5.527998 5.18) (xy 5.57 -1.11) (xy -5.5 -1.16)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

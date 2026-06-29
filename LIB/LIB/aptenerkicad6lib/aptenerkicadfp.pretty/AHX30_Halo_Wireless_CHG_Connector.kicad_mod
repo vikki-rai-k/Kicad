@@ -1,0 +1,147 @@
+(footprint "AHX30_Halo_Wireless_CHG_Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -3 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5bca8631-e0de-4969-ab29-1014153533c8")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "AHX30_Halo_Wireless_CHG_Connector"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03c660f7-51f3-475c-b3f6-619e48ece31e")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Footprint" "AHX30_Halo_Wireless_CHG_Connector"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dabcff25-8cdc-4415-80c3-22f3760682f8")
+		(effects
+			(font
+				(size 0.25 0.25)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b62978b4-2ba1-4f86-b71c-4d944134636b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6c73129-3f7c-46d6-9372-b6a2c53017fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2d76bbf-ba51-4974-9390-4a46f24e8ed7")
+	)
+	(fp_line
+		(start -1.27 3.04)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70e1a2f0-3af1-46af-b7c5-47bb46a5f184")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e1ffba4-3a2e-4b59-80ec-687eb61ad98d")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 3.04)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aef78d89-1e9b-4575-90c3-3c56cfcc5abe")
+	)
+	(fp_line
+		(start 1.27 3.04)
+		(end -1.27 3.04)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abcd0a8c-437e-40e7-8a1f-caf2892182c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.27 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ab583d8-5451-47aa-a677-08e991e254d9")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0de8d436-c085-4dc4-a192-130cbb3f1b3d")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e6ae93f-ac16-4de4-88e1-ba5154bb8c40")
+	)
+)

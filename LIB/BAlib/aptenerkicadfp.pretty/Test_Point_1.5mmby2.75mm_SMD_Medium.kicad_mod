@@ -1,0 +1,112 @@
+(footprint "Test_Point_1.5mmby2.75mm_SMD_Medium"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "W19"
+		(at 0.003088 1.112759 180)
+		(layer "F.SilkS")
+		(uuid "2b923a61-216e-4446-b0d4-92c3d377ea13")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "T1P"
+		(at 0.55 -1.72 180)
+		(layer "F.Fab")
+		(uuid "c1c45b22-566e-4ca6-959c-3ea9bf5b5b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f13e76dc-c68f-4ad5-b900-cdc9d5c36748")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04506d0a-6a25-4030-b996-b086c4b6f5a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f572039-4784-44de-8ce7-9249cb84cc8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -0.8)
+		(end 1.4 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc6c2e12-d09c-4a54-9e51-dd84aa1cdfad")
+	)
+	(fp_line
+		(start -1.38 0.8)
+		(end -1.38 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc4236e1-9fce-4219-9d03-7e7be556d7f7")
+	)
+	(fp_line
+		(start 1.4 -0.8)
+		(end 1.4 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e04fe5af-e163-49f5-8aec-f513ed401c28")
+	)
+	(fp_line
+		(start 1.4 0.8)
+		(end -1.38 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64c275a3-48fb-4fbf-8e5c-50e6129c098e")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.75 1.5)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "080299f2-a385-4db0-8454-590d6c6bb1af")
+	)
+)

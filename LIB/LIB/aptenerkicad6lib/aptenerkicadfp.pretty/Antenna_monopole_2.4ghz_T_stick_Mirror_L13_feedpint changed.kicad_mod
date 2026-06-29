@@ -1,0 +1,102 @@
+(footprint "Antenna_monopole_2.4ghz_T_stick_Mirror_L13_feedpint changed"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "98896db7-5cc0-4008-9543-6e1a64233899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Antenna_monopole_2.4ghz_T_stick_Mirror_L13_feedpint changed"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab51f27c-ac4e-4189-b583-ca13d861a7c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "530578f7-2cd6-41cc-829a-755952657e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "241c38e3-50ec-4cc9-a4c7-354226a074ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed139752-11c2-4975-94d2-b0678ea4c78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.33209 -3.044) (xy -0.338521 -5.519744) (xy 12.811523 -5.501332) (xy 12.811523 -4.506911) (xy 0.669301 -4.508001)
+			(xy 0.66791 -3.044)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "1c0580a6-9882-40ba-9e60-e2e7fe38b485")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f47f2d37-2eef-4c08-9d49-9847db4ea30c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.16791 -2.794 270)
+		(size 0.5 1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "da760901-5abf-461d-ac10-481843029053")
+	)
+)

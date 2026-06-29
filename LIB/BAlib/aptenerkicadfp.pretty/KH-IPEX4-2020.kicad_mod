@@ -1,0 +1,262 @@
+(footprint "KH-IPEX4-2020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "u.fl IPEX")
+	(property "Reference" "REF**"
+		(at 0.288 -2.472 0)
+		(layer "F.SilkS")
+		(uuid "ab757f4c-d34c-492b-a5ee-97f22f99b9f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KH-IPEX4-2020"
+		(at 9.559 3.092 0)
+		(layer "F.Fab")
+		(uuid "2354c143-3d43-4383-9a04-dcd45525a987")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d44260c-9c98-4b3c-8fd2-ceac92a8d433")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb3c340e-9469-43a0-8e98-b34c974dc3fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DNP" "-"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "086b7819-5ab5-4d86-905e-3995d174df3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "mpn" "KH-IPEX4-2020"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8de5d0e1-4d38-47cc-b6fd-9bc8f98944f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 1.873)
+		(end 0.1 1.873)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8ac056c6-863c-4e90-8ef0-bdb9db8b9ee3")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a53e929-2986-40f4-8b71-2cc321ed932e")
+	)
+	(fp_line
+		(start -1.5 1.55)
+		(end 1.5 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd31e4d5-a074-485c-a027-017863f31b5c")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c1093c0-a303-46de-a779-f91da46b5c13")
+	)
+	(fp_line
+		(start 1.5 1.55)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fed6fba-ee57-491a-9bc4-28120344b1e8")
+	)
+	(fp_line
+		(start -0.88 -0.84)
+		(end -0.88 0.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90583139-53d4-442c-a1bd-0a2023f822cc")
+	)
+	(fp_line
+		(start -0.88 -0.84)
+		(end 0.58 -0.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c986323-b027-4434-a157-3a8ef7aec1d9")
+	)
+	(fp_line
+		(start -0.88 0.84)
+		(end 0.88 0.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92e64cd1-eeb4-4949-ba1a-70ee20b3d62b")
+	)
+	(fp_line
+		(start 0.58 -0.84)
+		(end 0.88 -0.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77e03f5d-2eb5-42ab-8bdd-af7b7bfc97e1")
+	)
+	(fp_line
+		(start 0.88 0.84)
+		(end 0.88 -0.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4da414a-a40e-4930-8984-9d6c073c8270")
+	)
+	(fp_circle
+		(center 0 1.873)
+		(end 0.1 1.873)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e01580e6-c802-4645-adb3-b67fdebbf672")
+	)
+	(pad "1" smd rect
+		(at 0 1)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "11d6c6aa-b964-4bea-8a3d-f47afede5c75")
+	)
+	(pad "S1" smd rect
+		(at -0.96 0)
+		(size 0.58 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "aee8ed15-cab2-4770-b5e3-6131f979b5d5")
+	)
+	(pad "S1" smd rect
+		(at 0 -1)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ba454a5b-7c4f-49be-bd80-f3dd5726b86c")
+	)
+	(pad "S1" smd rect
+		(at 0.96 0)
+		(size 0.58 1.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "64d661f7-d54d-4c5d-8423-2181b857dda0")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "fb19198e-51af-4270-868c-c1a77a2da3a6")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.67 -0.75) (xy 0.67 -0.75) (xy 0.67 0.7) (xy -0.67 0.7)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${APTGIT}/aptenerkicad6lib/3DView/ipex4-2020.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

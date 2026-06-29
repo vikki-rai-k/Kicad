@@ -1,0 +1,169 @@
+(footprint "Antenna_monopole_2.4ghz_T_stick"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "98896db7-5cc0-4008-9543-6e1a64233899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Antenna_monopole_2.4ghz_T_stick"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab51f27c-ac4e-4189-b583-ca13d861a7c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "530578f7-2cd6-41cc-829a-755952657e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "241c38e3-50ec-4cc9-a4c7-354226a074ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed139752-11c2-4975-94d2-b0678ea4c78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.335135 -3.467202) (xy -0.331749 -5.519744) (xy -12.338793 -5.501332) (xy -12.338793 -4.506911)
+			(xy -1.339571 -4.508001) (xy -1.335135 -3.467202)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "1c0580a6-9882-40ba-9e60-e2e7fe38b485")
+	)
+	(fp_line
+		(start -12.337262 -5.50901)
+		(end -12.337262 -4.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ba5365a3-852d-4086-9e21-5051d1491f7c")
+	)
+	(fp_line
+		(start -12.337262 -5.50901)
+		(end -0.337262 -5.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4a949909-764c-4045-950c-a0cbccceea3c")
+	)
+	(fp_line
+		(start -12.337262 -4.50901)
+		(end -1.337262 -4.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "217fec79-89c6-4dea-918c-97f8f50f398d")
+	)
+	(fp_line
+		(start -1.337262 -4.50901)
+		(end -1.337262 -2.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "61097a39-bb9b-41ce-844a-cca4f64b3715")
+	)
+	(fp_line
+		(start -0.337262 -5.50901)
+		(end -0.337262 -2.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0fcebf1c-0780-45da-becb-6bc8d6e028f6")
+	)
+	(fp_line
+		(start -0.337262 -2.50901)
+		(end -1.337262 -2.50901)
+		(stroke
+			(width 0.09)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "32d5c71c-0232-4fba-b02f-ae0609abed1a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f47f2d37-2eef-4c08-9d49-9847db4ea30c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.835135 -2.967202 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "da760901-5abf-461d-ac10-481843029053")
+	)
+	(group ""
+		(uuid "7dd522db-e51e-402b-ac67-da54826d3b2f")
+		(members "0fcebf1c-0780-45da-becb-6bc8d6e028f6" "217fec79-89c6-4dea-918c-97f8f50f398d"
+			"32d5c71c-0232-4fba-b02f-ae0609abed1a" "4a949909-764c-4045-950c-a0cbccceea3c"
+			"61097a39-bb9b-41ce-844a-cca4f64b3715" "ba5365a3-852d-4086-9e21-5051d1491f7c"
+		)
+	)
+)

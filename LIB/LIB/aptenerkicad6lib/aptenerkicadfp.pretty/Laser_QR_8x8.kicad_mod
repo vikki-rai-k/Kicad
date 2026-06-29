@@ -1,0 +1,180 @@
+(footprint "Laser_QR_8x8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.81 -1.651 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2120731e-fded-474e-bd6b-d2d2f1c2806b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "Laser_QR_8x8"
+		(at 3.937 -2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e28c966-3aef-4061-aa9c-a3e7d6280462")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db2e8338-0804-4936-9e9d-0e4f7266a2e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773fa00d-85f6-43ed-99da-309d6775e9bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "913eaea2-5159-48d0-9659-464dbe6e44e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -8)
+		(end 8 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ee90dbe-fe31-460f-bd4d-1d5e9999726b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0abbce24-7716-4a56-82b5-ccc32cc86c7a")
+	)
+	(fp_line
+		(start 8 -8)
+		(end 8 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92e816ed-238f-4f03-889b-5e3e2481ed1f")
+	)
+	(fp_line
+		(start 8 0)
+		(end 0 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6b4cd6-7b44-4017-b45f-58d6c8d6fb1a")
+	)
+	(fp_line
+		(start 0 -8.001)
+		(end 8 -8.001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e6ebbeb-285a-4d98-8b8a-a11301fd41b4")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "170980b7-cb46-45c2-8bbf-0fa49f81b6be")
+	)
+	(fp_line
+		(start 8 -8.001)
+		(end 8 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04d98e56-3953-4d62-9066-b50059277cbc")
+	)
+	(fp_line
+		(start 8 0)
+		(end 0 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27ffa451-c6eb-4045-99b7-76d295e838e6")
+	)
+	(fp_text user "Place Exclusion Layer"
+		(at 3.937 -5.08 0)
+		(layer "Cmts.User")
+		(uuid "4e21b296-cd0e-4949-9789-9babe34677c7")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(fp_text user "Fill is OK"
+		(at 3.81 -3.556 0)
+		(layer "Cmts.User")
+		(uuid "cc1971fd-8886-4b42-9e41-8b54bf75286c")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(fp_text user "for Vias and Routes"
+		(at 3.995 -4.446 0)
+		(layer "Cmts.User")
+		(uuid "f6afc634-9f50-45fa-a184-3a668ae5e13b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+)

@@ -1,0 +1,120 @@
+(footprint "WBFBP-02C_L1.0-W0.6-BI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.4 0 0)
+		(layer "F.SilkS")
+		(uuid "10ee350f-9a00-4205-89e0-67c86613ddd3")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.03)
+			)
+		)
+	)
+	(property "Value" "WBFBP-02C_L1.0-W0.6-BI"
+		(at 1 1.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa8ab914-41dc-4ea6-b393-2f338ed00939")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.03)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "204ec9e1-cca2-4e06-9d73-8f794229291d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345f2674-99ae-44ce-800b-b7ccff20ae41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.46 -0.35)
+		(end 0.46 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27c1d1c0-1b70-4c97-989f-d2440703cf8c")
+	)
+	(fp_line
+		(start -0.45 0.35)
+		(end 0.47 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5f90a10-3c96-43ed-a934-1470caf3abf2")
+	)
+	(fp_circle
+		(center -0.45 0.3)
+		(end -0.42 0.3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1b6a53b9-e99c-4c5a-b4e3-f0667644e08b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 0.6 0)
+		(layer "F.Fab")
+		(uuid "3e55e58f-f105-41bd-b026-5ce77990e090")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.45 0)
+		(size 0.62 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "656ad121-28be-4a5e-b988-d8cd58cdcb02")
+	)
+	(pad "2" smd rect
+		(at 0.45 0)
+		(size 0.45 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "95e14a46-971b-45ad-afa2-b525e7276595")
+	)
+	(embedded_fonts no)
+	(model "${APTGIT}/aptenerkicad6lib/3DView/WBFBP-02C_L1.0-W0.6-BI.step"
+		(offset
+			(xyz 0.04 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

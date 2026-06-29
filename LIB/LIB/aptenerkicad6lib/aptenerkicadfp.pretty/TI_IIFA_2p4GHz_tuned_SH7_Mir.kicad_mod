@@ -1,0 +1,190 @@
+(footprint "TI_IIFA_2p4GHz_tuned_SH7_Mir"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.ti.com/lit/an/swra117d/swra117d.pdf")
+	(tags "PCB antenna")
+	(property "Reference" "REF**"
+		(at -4.3 -0.45 0)
+		(layer "F.SilkS")
+		(uuid "6afd3615-6cac-4869-93df-1c250b2534ba")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" "SH7_Antenna_Tuned"
+		(at -3.95 1.21 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e991858d-100d-499d-bd03-9a964067492c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3028ee01-3291-4435-95d0-b6fe06b2e6ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "673218be-609a-4f4b-a702-7b5fcd4b4eab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56775e01-01cd-4752-8fe7-865c7e10e41f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -6.75 -2.84) (xy -4.75 -2.84) (xy -4.75 -5.34) (xy -2.05 -5.34) (xy -2.05 -3.15) (xy -0.4 -3.15)
+			(xy -0.4 -5.34) (xy 3.85 -5.34) (xy 3.85 -3.35) (xy 3.35 -3.35) (xy 3.35 -4.84) (xy 0.1 -4.84) (xy 0.1 -2.65)
+			(xy -2.55 -2.65) (xy -2.55 -4.84) (xy -4.25 -4.84) (xy -4.25 -2.34) (xy -7.25 -2.34) (xy -7.25 -4.84)
+			(xy -8.95 -4.84) (xy -8.95 0.06) (xy -9.45 0.06) (xy -9.45 -4.84) (xy -10.85 -4.84) (xy -10.85 -0.44)
+			(xy -11.75 -0.44) (xy -11.75 -5.34) (xy -6.75 -5.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "cc071858-e58d-42bf-945e-da571c8447b9")
+	)
+	(fp_line
+		(start -12.4 -5.6)
+		(end 4.7 -5.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07834de4-3195-400a-9102-7a5d980a8ae4")
+	)
+	(fp_line
+		(start -12.4 0.35)
+		(end -12.4 -5.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b776b333-c645-4b46-b553-86db042fee43")
+	)
+	(fp_line
+		(start 4.7 -5.575)
+		(end 4.7 0.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96bed360-b49b-472f-96c3-137d83e5ec3c")
+	)
+	(fp_line
+		(start 4.7 0.375)
+		(end -12.4 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1065047-49ea-438e-a959-94b5a0ad2109")
+	)
+	(fp_line
+		(start -12.4 -5.6)
+		(end 4.7 -5.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13379d25-d6ca-47fc-9d60-661057cfb0f6")
+	)
+	(fp_line
+		(start -12.4 0.35)
+		(end -12.4 -5.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9083466b-0a0c-4c98-a675-f1ecaa1191f4")
+	)
+	(fp_line
+		(start 4.7 -5.6)
+		(end 4.7 0.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2dc2e5d-dfb5-40b8-b651-4336904f5bfb")
+	)
+	(fp_line
+		(start 4.7 0.35)
+		(end -12.4 0.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11b8ecec-9195-41dd-987e-0984a9563adf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.25 -0.5 0)
+		(layer "F.Fab")
+		(uuid "dddd9ffc-a7ef-43a4-b791-36ba0672a721")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -9.2 -0.185)
+		(size 0.5 0.49)
+		(layers "F.Cu")
+		(uuid "3758b89d-32d5-4500-b989-3febb6dc5a06")
+	)
+	(pad "2" thru_hole rect
+		(at -11.3 -0.19)
+		(size 0.9 0.5)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "55f78042-4ea3-4822-bc5a-2b3b39851b4a")
+	)
+)

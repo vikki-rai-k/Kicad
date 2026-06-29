@@ -1,0 +1,49 @@
+Title
+	title : BluArmor-Halo 3
+	date : 2025-08-22
+	rev : Rev 1.0
+	company : AptEner Mechatronics PVT LTD
+	comment 1 : 4 layer JLCPCB 4 Layers 1.2mm Impedance Control JLC041611-2116
+
+
+Board Thickness = 1.2 mm
+
+
+Copper Layer  = 4 
+
+
+Copper Layers 
+	F.Cu(type : 0.035 mm
+	In1.Cu(type : 0.03 mm
+	In2.Cu(type : 0.03 mm
+	B.Cu(type : 0.035 mm
+
+
+DiElectric Layers 
+	"prepreg" : 0.1 mm : "FR4" : 4.3 : 0.02
+	"core" : 0.85 mm : "FR4" : 4.3 : 0.02
+	"prepreg" : 0.1 mm : "FR4" : 4.3 : 0.02
+
+
+Impedance Control : True
+
+SilkScreen Layers 
+	Top Silk Screen : White
+	Bottom Silk Screen : White
+
+
+SolderMask Layers 
+	Top Solder Mask : Green : 0.01
+	Bottom Solder Mask : Green : 0.01
+
+
+DRC Rules 
+Track Rules 
+	Min Track Width : 0.15mm
+	Min Track Spacing : 0.10mm
+	Min Cu to Edge : 0.05mm
+Via Rules 
+	Min Via hole  : 0.25mm
+	Min Via Dia : 0.45mm
+	Min Annular width : 0.08mm
+	Min hole to hole spacing : 0.25mm

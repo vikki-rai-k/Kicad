@@ -1,0 +1,95 @@
+(footprint "Test_Point_0.8mmDia_SMD_Tiny"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "W"
+		(at 0.05 1.1 180)
+		(layer "F.SilkS")
+		(uuid "0008c69a-d5bc-4ce5-8c95-830d0638cd34")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "T1P"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbd6f32f-3ab2-4d59-a4ee-a8c7bcae0f7b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e2ed3d-7ff5-4658-af24-bac781dc7f82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bcc5ff6-8d0b-4579-97c8-ee10bf7aa73a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c9528c0-3939-4564-bddd-7db396772ef6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "85a07216-fe23-4e83-b97f-cc6a980f4c01")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9d1a63d4-9cbd-496a-9ec4-854c80ee8bd6")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.8 0.8)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "90bcfb9b-95bc-4fac-b2b5-a0478c259c37")
+	)
+)
